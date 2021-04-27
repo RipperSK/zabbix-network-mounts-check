@@ -1,6 +1,3 @@
-# zabbix-network-mounts-check
+# zabbix-user-params
 
-This is simple UserParameter to check mount status of /etc/fstab network mount points.
-Bash script compares how many network mount points are defined in /etc/fstab and how many are actually mounted in /proc/mounts.
-
-Zabbix user needs permissions to read both /etc/fstab and /proc/mounts.
+collection of some easy to use zabbix user parameter conf files and templates to extend zabbix monitoring
